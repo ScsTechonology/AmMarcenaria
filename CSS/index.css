@@ -13,7 +13,7 @@
    height: 400px;
    background-image: url(../Assets/Banner\ Mathias\ mobile.png);
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
 }
 
 .logo img {
@@ -150,7 +150,6 @@
 
 .animation-scroll{
    width: 100;
-   border: solid 2px #000000;
 
 }
 
