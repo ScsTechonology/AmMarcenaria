@@ -13,7 +13,7 @@
    height: 400px;
    background-image: url(../Assets/Banner\ Mathias\ mobile.png);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
 }
 
 .logo img {
