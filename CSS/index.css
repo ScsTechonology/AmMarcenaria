@@ -108,6 +108,7 @@
    display: none;
 }
 
+
 /* TITLE HEADER */
 .title-header {
    display: flex;
@@ -144,7 +145,13 @@
 
    border-radius: 16px;
    border: none;
+   transition: 0.5s ease;
 }
+
+.btn-header:hover{
+   transform: scale(1.1);
+}
+
 
 /* ANIMAÇÃO DE SCROLL DO MOUSE */
 
@@ -309,7 +316,7 @@
    color: #FFFFFF;
 }
 
-.orcamento button {
+.btn-orcamento {
    width: 106px;
    height: 26px;
 
@@ -317,4 +324,61 @@
    border-radius: 22px;
    font-size: 9px;
    border: none;
+   transition: 0.5s ease;
+}
+
+.btn-orcamento:hover{
+   transform: scale(1.1);
+}
+
+.title__section{
+   margin-top: 1rem;
+}
+.title__section h2{
+   font-size: 1rem;
+   text-align: center;
+}
+
+
+.contact-us{
+   margin-left: 1rem;
+   margin-top: 2rem;
+   padding: .5rem;
+}
+
+.contact-us h2{
+   font-size: 2rem;
+
+}
+
+.contact-us p{
+   margin-top: 2rem;
+}
+
+.icon{
+   width: 20px;
+}
+.icon img{
+   width: 100%
+}
+
+#contacts{
+   margin-top: 1rem;
+   font-size: 1.5rem;
+}
+
+.social{
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+.social a{
+   text-decoration: none;
+   color: #000000;
+}
+
+.social a:hover{
+   color: #525252;
 }
